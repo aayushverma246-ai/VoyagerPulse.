@@ -162,7 +162,7 @@ export default function LandingPage() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link 
-              href="/login" 
+              href="/login?demo=true" 
               className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-950 border border-zinc-800 hover:border-zinc-700 text-zinc-300 hover:text-white px-6 py-3.5 rounded transition-colors"
             >
               Explore Demo Dashboard
@@ -565,7 +565,7 @@ export default function LandingPage() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link 
-              href="/login" 
+              href="/login?demo=true" 
               className="w-full sm:w-auto inline-flex items-center justify-center bg-zinc-950 border border-zinc-800 hover:border-zinc-700 text-zinc-300 hover:text-white px-6 py-3.5 rounded transition-colors"
             >
               Explore Demo
