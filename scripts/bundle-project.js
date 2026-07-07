@@ -14,6 +14,7 @@ const IGNORED_NAMES = new Set([
   '.next',
   '.vercel',
   '.clean-temp',
+  'voyagerpulse',
   zipFileName,
 ]);
 

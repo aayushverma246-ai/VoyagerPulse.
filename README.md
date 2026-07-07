@@ -1,12 +1,31 @@
+<div align="center">
+
 # VoyagerPulse 🚀
 
-> **Advanced LinkedIn Content Analytics Platform**
+**Advanced LinkedIn Content Analytics & Optimization Platform**
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.2.10-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.4-00d8ff?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-5.22.0-123a50?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-3ecf8e?style=for-the-badge&logo=supabase&logoColor=3ecf8e)](https://supabase.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?style=for-the-badge&logo=vercel&logoColor=white)](https://voyagerpulse.vercel.app/)
+[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](https://github.com/aayushverma246-ai/VoyagerPulse/blob/main/LICENSE)
+
+<br />
+
+[Live Demo Website](https://voyagerpulse.vercel.app/) • [Key Features](#key-features) • [Data Model](#architectural-data-model) • [Setup Guide](#getting-started) • [Deployment](#production-deployment)
+
+</div>
+
+---
 
 VoyagerPulse is a portfolio-grade, production-ready SaaS dashboard and analytics platform designed for content creators, founders, and developer advocates. It provides comprehensive visual reporting, trends tracking, and actionable posting style recommendations.
 
 The platform securely connects to LinkedIn's internal Voyager GraphQL API using session cookies (`li_at` and `JSESSIONID`), caching data in a normalized Supabase PostgreSQL database to perform statistical analytics and rule-based optimizations.
 
-**Production URL**: [https://linkedin-voyager-analytics.vercel.app](https://linkedin-voyager-analytics.vercel.app)
+**Production URL**: [https://voyagerpulse.vercel.app/](https://voyagerpulse.vercel.app/)
 
 ---
 
