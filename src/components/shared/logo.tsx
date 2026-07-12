@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useId } from 'react';
 
 export function LogoIcon({ className = "h-8 w-8" }: { className?: string }) {
+  const gradientId = useId();
   return (
     <svg className={className} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Container in brand blue-to-indigo gradient */}
-      <rect width="32" height="32" rx="8" fill="url(#logo-grad)" />
+      <rect width="32" height="32" rx="8" fill={`url(#${gradientId})`} />
       
       {/* Dot on the "i" */}
       <circle cx="9.5" cy="11.5" r="1.6" fill="white" />
@@ -36,7 +37,7 @@ export function LogoIcon({ className = "h-8 w-8" }: { className?: string }) {
       />
 
       <defs>
-        <linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+        <linearGradient id={gradientId} x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
           <stop stopColor="#0A66C2" />
           <stop offset="1" stopColor="#4F46E5" />
         </linearGradient>
